@@ -1,0 +1,238 @@
+<?php
+$appservlang = $_GET['appservlang'];
+/* AppServ Open Project                                          */
+/* Copyright (c) 2001 by Phanupong Panyadee (http://www.appservnetwork.com)         */
+/* This program is free software. You can redistribute it and/or MODIFY */
+/* it under the terms of the GNU General Public License as published by */
+/* the Free Software Foundation; either version 2 of the License.       */
+include("a/main.php");
+print "<html><head>
+<TITLE>Grid dot Kim</title>
+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">
+<style>
+<!-- Hide style for old browsers 
+BODY          {font-family: MS Sans Serif;font-size=\"10\"}
+.headd { font-family: Helvetica,Verdana ; font-size: 13pt; text-decoration:  none; }
+.app { font-family: MS Sans Serif ; font-size: 10pt; text-decoration:  none; }
+A:link    {text-decoration: none; color: #0000FF}
+A:visited {text-decoration: none; color: #0000FF}
+A:hover   {text-decoration: none; color: #FF0000}
+A:active  {text-decoration: none; color: #FF0000}
+-->
+</style>
+
+</head>
+<body bgcolor=\"lightblue\" background=\"http://grid.kim/bg/backgroundrotation.php\" >
+<div align=\"left\"> 
+  <table border=\"0\" width=\"100%\" height=\"19\">
+    <tr bgcolor=\"abcdFF\"> 
+<td width=\"100%\" height=\"19\" valign=\"top\">
+<font color=\"#f1f1ff\">
+<span class=\"headd\"><strong><big>
+<a href=\"http://grid.kim\">
+<img src=\"a/members.gif\" width=\"20\"     
+height=\"20\" align=\"absmiddle\">
+&nbsp; <font color=\"#000066\">
+Grid dot Kim</big></strong></a> <small>"._GRIDDOTKIM."</small></span></font></td>
+    </tr>
+  </table>
+  
+</div>
+<div align=\"center\"> 
+  <table width=\"55%\" border=\"1\">
+    <tr bgcolor=\"#FFF9FD\"> 
+      <td height=\"344\"> 
+        <blockquote> 
+          <p><font color=\"#000080\"><span
+    class=\"headd\"><strong>
+	            <img
+    src=\"a/annoicon.gif\" width=\"20\" height=\"20\" align=\"absmiddle\"> <br>
+   </strong></span></font> </p>
+          <p>   <blockquote>
+<li><b><a href=\"http://gridkr.com\">Grid Kr. (.com) </b></a> and <b><a href=\"http://grid.kim\">Grid dot 
+
+Kim</b></a><br /><BR />
+<li><b><a href=\"http://gis.kim\">GIS dot Kim by Grid Kr.</b> </a><br/><small><I>'Dot Kim' reminds me 
+
+of 'dot Kom'.</i></small><br />
+<BR /> <br /></blockquote></span>          </p>        </blockquote><span    class=\"app\">Articles 
+
+:<ul><li><a href=\"/d/envi/IONJava/\"><span class=\"app\">ION Java Examples</span></a></li>
+<li><a href=\"/d/online_help/\"><span class=\"app\">IDL 6.3 Online Help Files </span></a></li>
+<li><a href=\"/d/ENVI_4_3/online_help/\"><span class=\"app\">ENVI 4.3 Online Help Files  
+
+</span></a></li>
+<li><a href=\"/n/Java_1.6_Tutorial/\"><span class=\"app\">The Java 1.6 Tutorials  </span></a></li>
+<li><a href=\"/n/JavaDoc_docs/\"><span class=\"app\">Java SE 6 Documentation  </span></a></li>
+<li><a href=\"/n/pc2-9.2.3_Client_doc/\"><span class=\"app\">PC<SUP>2</sup> Distribution 
+
+Documentation&nbsp;&nbsp;(PC^2 9.2.3 Client doc)</span></a></li>
+
+</ul><span    class=\"app\">Links :<UL>
+<li><a href=\"http://www.paipibut.org\"><span class=\"app\">Paipibut.org + Pai Report</span></a></li>
+<li><a href=\"http://www.gistda.or.th\"><span class=\"app\"><b>GISTDA.or.th</b></span></a></li>
+<li><a href=\"http://www.resgat.net/\"><span class=\"app\"><B>Resgat.net</b> (Remote Sensing and 
+
+GIS Association of Thailand)</span></a></li>
+<li><a href=\"http://www.gisthai.org\"><span class=\"app\">GISThai .org</span></a></li>
+<li><a href=\"http://www.mahadthai.com/gis/\"><span class=\"app\">Mahadthai.com 
+
+GIS</span></a></li>
+<li><a href=\"http://www.bangkokgis.com/\"><span class=\"app\">Bangkok GIS</span></a></li>
+<li><a href=\"http://www.GOODJAI.com\"><span class=\"app\">GoodJai (Kongjak Jaidee)
+
+</span></a></li>
+<P />
+<li><A href=\"http://www.scitu.net/gcom/\"><SPAN class=\"app\"><B>SCI TU .net / GCOM</b></a> <a 
+
+href=\"http://www.gis2me.com\"><span class=\"app\">(GIS2ME .com)</span></a></li>
+<li><a href=\"http://geo.buu.ac.th\"><span class=\"app\">GEO BUU</span></a></li>
+<li><a href=\"http://geo.soc.ku.ac.th\"><span class=\"app\">GEO KU</span></a></li>
+<li><a href=\"http://www.gis.ru.ac.th\"><span class=\"app\">GIS RU</span></a></li>
+<li><a href=\"http://www.gifeu.com\"><span class=\"app\">GIFEU.com</span></a></li>
+<li><a href=\"http://it.msu.ac.th/gis/\"><span class=\"app\">GIs MSU</span></a> under 
+
+construction</li>
+ <BR /> 
+
+<img src=\"img/img3.gif\" alt=\"\" height=\"13\" width=\"14\"><a href=\"http://anan464.com.th.gs/\" 
+
+target=\"_blank\">.:: ART ::.</a><br>
+
+<img src=\"img/img2.gif\" alt=\"\" height=\"13\" width=\"13\"> <a href=\"http://www.bing.com/maps/\" 
+
+target=\"_blank\">Bing Maps</a><br>
+
+ <img src=\"img/img2.gif\" alt=\"\" height=\"13\" width=\"13\"> <a href=
+
+\"https://maps.google.co.th/maps?hl=th&tab=wl\" target=\"_blank\">Google Maps</a><BR/>
+
+<img src=\"img/img2.gif\" alt=\"\" height=\"13\" width=\"13\"> <a href=
+
+\"http://boulter.com/gps/#16.242438953668792%20103.26202154159546\" target=\"_blank
+
+\">Boulter.com/gps (coordinate converter)</a><BR/>
+ 
+<img src=\"img/img2.gif\" alt=\"\" height=\"13\" width=\"13\"> <a href=
+
+\"https://earthexplorer.usgs.gov/login/\" target=\"_blank\">USGS</a><BR />
+
+<img src=\"img/img2.gif\" alt=\"\" height=\"13\" width=\"13\"> <a href=\"http://www.scirp.org/journal/jgis\" 
+
+target=\"_blank\">SCIRP.org JGIS  </a>  <a href=\"http://www.scirp.org/journal/Home.aspx?
+
+JournalID=114\" target=\"_blank\"> Journal</a>  
+
+<BR /><br />
+<li><a href=\"http://imcdb.org/search.php?sortBy=5&origin=JP\"><span class=\"app\">IMCDb.org -- 
+
+Japanese cars (newest added)</span></a></li>
+         <!--  <li> <a href=\"http://th.wikipedia.org/wiki/Special:RecentChanges\"><span class=\"app
+
+\">"._W."</span></a></li>
+<li> <a href=\"http://th.wiktionary.org/wiki/Special:RecentChanges\"><span class=\"app
+
+\">"._D."</span></a></li>
+<li> <a href=\"http://th.wikiquote.org/wiki/Special:RecentChanges\"><span class=\"app
+
+\">"._Q."</span></a></li>
+ <li> <a href=\"http://th.uncyclopedia.info/wiki/Special:RecentChanges\"><span class=\"app
+
+\">"._R."</span></a></li> -->
+</ul>
+<BR /><BR /><BR /><Br /><CENTER>Last Updated --  09 <A href=
+
+\"http://en.wikipedia.org/wiki/December_2013\">December 2556(2013)</a> 19:34 GMT+7</center>
+
+
+<br /><br /><Br />
+      </td>
+    </tr>
+    <tr> 
+      <td height=\"19\" bgcolor=\"#FFD2F8\"><font color=\"#000080\" class=\"headd
+
+\">&nbsp;&nbsp;&nbsp;<img src=\"a/softicon.gif\" width=\"20\" height=\"20\" align=\"absmiddle
+
+\">&nbsp;<b>"._S."&nbsp;&nbsp;</b></font><font color=\"#ffd2f8\" 
+
+><SMALL><B>"._QWERTYUIOP."</b></small></FONT></td>
+    </tr>
+  </table>  
+<BR.<BR>
+<table width=\"\" border=\"0\">
+    <tr bgcolor=\"#FFF9FD\"> 
+      <td height=\"\"> 
+<A href=\"http://thaimarkettoday.blogspot.com/2011/02/session-php.html\">
+";
+?><?php
+$fn = glob("/tmp/sess*");
+echo "Online = ", count($fn);
+echo " persons.";
+?><?php
+echo "</a> </td>    </tr>  </table><br><BR><BR><BR><table border=\"1\" cellpadding=\"2\" 
+
+cellspacing=\"2\" bgcolor=\"AZURE\">
+  <tbody>
+    <tr>
+      <td align=\"center\" bgcolor=\"#3366ff\"><b>Detail</b></td>
+      <td align=\"center\" bgcolor=\"#3366ff\"><b>Paid</b></td>
+      <td align=\"center\" bgcolor=\"#3366ff\"><b>Expire</b></td>
+    </tr>
+    <tr>
+      <td>Host</td>
+      <td>12/09/2013</td>
+      <td>12/10/2014</td>
+    </tr>
+    <tr>
+      <td>Domain gridkr.com</td>
+      <td>27/02/2014</td>
+      <td>05/11/2015</td>
+    </tr>
+    <tr>
+      <td>Domain gridgis.com</td>
+      <td>17/03/2014</td>
+      <td>13/11/2015</td>
+    </tr>
+    <tr>
+      <td>Domain grid********.com</td>
+      <td>04/08/2014</td>
+      <td>09/01/2016</td>
+    </tr>
+    <tr>
+      <td><S>Domain ***.in.th</s></td>
+      <td><S>22/03/2014</s></td>
+      <td><S>06/09/2015</s></td>
+    </tr>
+    <tr>
+      <td><S>Domain xn--*******.com</s></td>
+      <td><S>01/01/2014</s></td>
+      <td><S>01/01/2015</s></td>
+    </tr>
+    <tr>
+      <td><S>Domain xn--*************.com</s></td>
+      <td><S>06/08/2014</s></td>
+      <td><S>11/12/2015</s></td>
+    </tr>
+    <tr>
+      <td>Domain GRID.KIM</td>
+      <td>16/08/2014</td>
+      <td>16/08/2015</td>
+    </tr><tr>
+      <td>Domain GIS.KIM</td>
+      <td>16/08/2014</td>
+      <td>16/08/2015</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>dd/mm/yyyy</td>
+      <td>dd/mm/yyyy</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<BR/><BR/><BR/></div></body></html>\n";
+?>
